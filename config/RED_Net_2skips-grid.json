@@ -1,0 +1,38 @@
+{
+    "model": {
+        "name": "RED_Net_2skips",
+        "type": "Encoder",
+        "code_dim": 256,
+        "img_channel": 1,
+        "fp16": false
+    },
+    "op": {
+        "loss": "Multi_SSIM_loss",
+        "window_size":[3, 7, 15],
+
+        "start_epoch": 0,
+        "max_epoch": 200,
+        "snapshot": 10,
+        "learning_rate": 1e-3,
+        "decay_rate": 10,
+        "epoch_steps": [90, 150, 200]
+    },
+    "db": {
+        "name": "chip",
+        "data_dir": "D:/DataSet/chip_grid",
+        "loader_threads": 4,
+        "train_split": "train",
+        "use_validation_set": true,
+        "validation_split": "validation",
+        "val_split": "test",
+        "resize": [768, 768],
+        "batch_size": 2
+    },
+    "system": {
+        "resume": false,
+        "resume_path": "",
+        "finetune": false,
+        "finetune_path": "",
+        "save_dir": "./weights/"
+    }
+}

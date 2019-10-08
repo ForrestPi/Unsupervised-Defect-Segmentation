@@ -1,0 +1,38 @@
+{
+    "model": {
+        "name": "RED_Net_3skips",
+        "type": "Encoder",
+        "code_dim": 256,
+        "img_channel": 3,
+        "fp16": false
+    },
+    "op": {
+        "loss": "SSIM_loss",
+        "window_size":11,
+
+        "start_epoch": 0,
+        "max_epoch": 200,
+        "snapshot": 10,
+        "learning_rate": 4e-3,
+        "decay_rate": 10,
+        "epoch_steps": [150, 200]
+    },
+    "db": {
+        "name": "mvtec",
+        "data_dir": "D:/DataSet/mvtec_anomaly_detection",
+        "loader_threads": 4,
+        "train_split": "train",
+        "use_validation_set": true,
+        "validation_split": "validation",
+        "val_split": "test",
+        "resize": [256, 256],
+        "batch_size": 16
+    },
+    "system": {
+        "resume": false,
+        "resume_path": "",
+        "finetune": false,
+        "finetune_path": "",
+        "save_dir": "./weights/"
+    }
+}

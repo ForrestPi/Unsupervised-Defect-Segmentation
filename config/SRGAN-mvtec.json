@@ -1,0 +1,38 @@
+{
+    "model": {
+        "name": "SRGAN",
+        "type": "GAN",
+        "code_dim": 256,
+        "img_channel": 3,
+        "upscale_factor":4,
+        "fp16": false
+    },
+    "op": {
+        "loss": "SRGAN_loss",
+        "vgg16_weight_path": "./weights/vgg16_reducedfc.pth",
+        "start_epoch": 0,
+        "max_epoch": 120,
+        "snapshot": 10,
+        "learning_rate": 5e-4,
+        "decay_rate": 10,
+        "epoch_steps": [60, 120]
+    },
+    "db": {
+        "name": "mvtec",
+        "data_dir": "D:/DataSet/mvtec_anomaly_detection",
+        "loader_threads": 4,
+        "train_split": "train",
+        "use_validation_set": true,
+        "validation_split": "validation",
+        "val_split": "test",
+        "resize": [256, 256],
+        "batch_size": 2
+    },
+    "system": {
+        "resume": false,
+        "resume_path": "",
+        "finetune": false,
+        "finetune_path": "",
+        "save_dir": "./weights/"
+    }
+}

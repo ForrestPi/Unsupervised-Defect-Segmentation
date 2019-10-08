@@ -1,0 +1,38 @@
+{
+    "model": {
+        "name": "VAE_Net0",
+        "type": "Encoder",
+        "code_dim": 256,
+        "fp16": false
+    },
+    "op": {
+        "loss": "VAE_loss",
+        "window_size":11,
+
+        "start_epoch": 0,
+        "max_epoch": 200,
+        "snapshot": 4,
+        "learning_rate": 1e-4,
+        "decay_rate": 10,
+        "epoch_steps": [150, 200]
+    },
+    "db": {
+        "name": "mvtec",
+        "data_dir": "/home/yangxusheng/Desktop/baimingliang/torch-minist/mvtec_anomaly_detection",
+        "loader_threads": 4,
+        "train_split": "train",
+        "use_validation_set": true,
+        "validation_split": "validation",
+        "val_split": "test",
+        "resize": [256, 256],
+        "crop_size": [128, 128],
+        "batch_size": 16
+    },
+    "system": {
+        "resume": false,
+        "resume_path": "",
+        "finetune": false,
+        "finetune_path": "",
+        "save_dir": "./weights/"
+    }
+}
