@@ -1,7 +1,6 @@
 """training container
-
-author: Haixin wang
-e-mail: haixinwa@gmail.com
+author: forrestpi
+e-mail: forrrest_zhu@foxmail.com
 """
 
 

@@ -1,7 +1,7 @@
 """Data set tool of MVTEC
 
-author: mingliangbai
-e-mail: mingliangbai@outlook.com
+author: forrestpi
+e-mail: forrrest_zhu@foxmail.com
 """
 import torch.nn as nn
 from torch.autograd import Variable

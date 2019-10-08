@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# author: kristine
-# data: 2019.08.04
+# author: forrestpi
+# data: 2019.09.04
 
 import torch
 import torch.nn.functional as F

@@ -1,7 +1,7 @@
 """Residual Encoder-Decoder Networks
 
-author: Haixin wang
-e-mail: haixinwa@gmail.com
+author: forrestpi
+e-mail: forrrest_zhu@foxmail.com
 """
 import torch.nn as nn
 

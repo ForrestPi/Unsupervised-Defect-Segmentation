@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# author: kristine
-# data:   2019.07.29
+# author: forrestpi
+# data:   2019.09.29
 
 import math
 import torch
