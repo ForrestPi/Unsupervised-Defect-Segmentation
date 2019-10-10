@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python train.py --cfg="RED_Net_4skips-mvtec" --ngpu=1 --log_dir="./log"

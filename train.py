@@ -8,7 +8,7 @@ from factory import *
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--cfg', help='Name of .jason file', type=str, required=True)
+    parser.add_argument('--cfg', help='Name of .json file', type=str, required=True)
     parser.add_argument('--ngpu', help='Numbers of GPU', type=int, default=1)
     parser.add_argument('--log_dir', help="Directory of training log", type=str, default='./log')
     args = parser.parse_args()
