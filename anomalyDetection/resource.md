@@ -85,3 +85,9 @@ http://trafalbad.hatenadiary.jp/entry/2019/09/04/213627
 
 https://github.com/ivanbergonzani/adversarial-segmentation
 https://github.com/drsagitn/anomaly-detection-and-localization
+
+
+
+https://github.com/HuayueZhang/textured_surface_anomaly_detection
+https://github.com/msminhas93/CompactCNN
+https://github.com/oezguensi/anomaly-detection-image-completion
