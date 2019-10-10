@@ -57,7 +57,7 @@ https://github.com/Pengnengsong/AnomalyDetection
 https://github.com/arundo/adtk
 https://github.com/kentaroy47/AnomalyDetection.pytorch
 https://github.com/kentaroy47/easy-anomaly-detection-with-keras
-
+https://github.com/chickenbestlover/RNN-Time-series-Anomaly-Detection
 
 
 
