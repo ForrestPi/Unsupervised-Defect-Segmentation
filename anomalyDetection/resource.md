@@ -99,6 +99,7 @@ https://github.com/drsagitn/anomaly-detection-and-localization
 https://github.com/HuayueZhang/textured_surface_anomaly_detection
 https://github.com/msminhas93/CompactCNN
 https://github.com/oezguensi/anomaly-detection-image-completion
+https://github.com/bumuckl/AutoencodersForUnsupervisedAnomalyDetection Deep Autoeoncoding Models for Unsupervised Anomaly Detection in Brain MR Images
 http://tongtianta.site/paper/17042  Deep Autoencoding Models for Unsupervised Anomaly Segmentation in Brain MR Images
 
 
