@@ -33,7 +33,7 @@ https://github.com/trigrass2/wgan-gp-anomaly
 https://github.com/tkwoo/anogan-keras
 https://github.com/tSchlegl/f-AnoGAN
 https://github.com/WellenWoo/GANomaly-pytorch
-
+http://tongtianta.site/paper/33739  Skip-GANomaly: Skip Connected and Adversarially Trained Encoder-Decoder Anomaly Detection
 
 
 ### data mining algorithms
@@ -116,4 +116,33 @@ https://github.com/khalilouardini/towards-practical-unsupervised-AD  Towards Pra
 Generative Data Augmentation for Unsupervised Anomaly Detection with GAN
 
 
-AnoVAEGAN  VAEGAN Context Encoders AE-GAN
+AnoVAEGAN  VAEGAN Context Encoders AE-GAN   Spatial Variational Autoencoder   Spatial Autoencoder
+
+
+https://github.com/xtarx/Unsupervised-Anomaly-Detection-with-Generative-Adversarial-Networks
+
+
+https://github.com/cheapthrillandwine/Improving_Unsupervised_Defect_Segmentation  
+https://arxiv.org/abs/1807.02011  Improving Unsupervised Defect Segmentation by Applying Structural Similarity to Autoencoders
+
+
+
+https://github.com/yousuhang/Unsupervised-Lesion-Detection-via-Image-Restoration-with-a-Normative-Prior
+https://openreview.net/pdf?id=S1xg4W-leV
+
+
+
+https://github.com/aubreychen9012/cAAE  Unsupervised Detection of Lesions in Brain MRI using constrained adversarial auto-encoders
+http://tongtianta.site/paper/12517
+https://github.com/aubreychen9012/LocalGaussianApproximation
+
+
+http://tongtianta.site/paper/59419  Iterative energy-based projection on a normal data manifold for anomaly localization
+http://tongtianta.site/paper/25792  Deep structured energy-based image inpainting
+
+
+### AAE  why convolutional AAE ????
+https://github.com/Naresh1318/Adversarial_Autoencoder
+
+
+https://github.com/yiweilu3/CONV-VRNN-for-Anomaly-Detection Future Frame Prediction Using Convolutional VRNN for Anomaly Detection

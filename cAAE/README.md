@@ -10,4 +10,5 @@ train model:  python main.py --model_name "cAAE" --z_dim "128"
 
 
 ### from 
-https://github.com/aubreychen9012/cAAE
+https://github.com/aubreychen9012/cAAE  Unsupervised Detection of Lesions in Brain MRI using constrained adversarial auto-encoders
+http://tongtianta.site/paper/12517 
