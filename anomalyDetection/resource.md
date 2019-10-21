@@ -62,7 +62,7 @@ https://github.com/kentaroy47/AnomalyDetection.pytorch
 https://github.com/kentaroy47/easy-anomaly-detection-with-keras
 https://github.com/chickenbestlover/RNN-Time-series-Anomaly-Detection
 https://github.com/microsoft/TagAnomaly
-
+https://research.fb.com/wp-content/uploads/2018/11/AnoGen-Deep-Anomaly-Generator.pdf AnoGen: Deep Anomaly Generator
 
 ### GCN
 https://github.com/kaize0409/GCN_AnomalyDetection
@@ -145,4 +145,9 @@ http://tongtianta.site/paper/25792  Deep structured energy-based image inpaintin
 https://github.com/Naresh1318/Adversarial_Autoencoder
 
 
+
+# for videos
 https://github.com/yiweilu3/CONV-VRNN-for-Anomaly-Detection Future Frame Prediction Using Convolutional VRNN for Anomaly Detection
+
+
+https://github.com/HeYuwei/GCN-Anomaly-Detection
